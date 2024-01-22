@@ -3,7 +3,7 @@ This repository contains a language model centered around characters, trained on
 
 The code is inspired by Andrej Karpathy's work on NanoGPT.
 
-The model was trained on a tiny dataset of Shakespeare's works, which is a subset of Shakespeare's works. The dataset was split into 90% for training and 10% for validation.
+The model was trained on a tiny dataset of Shakespeare's works `input.txt`, which is a subset of Shakespeare's works. The dataset was split into 90% for training and 10% for validation.
 
 The Transformer architecture is composed of a series of blocks that include multi-head self-attention and feedforward layers. The model also utilizes positional embeddings for each token, which allows the model to understand the order of the input characters.
 
@@ -49,6 +49,6 @@ dropout = 0.0
 ```
 
 
-The generated text is stored in the *output.txt*.
+The generated text is stored in the `output.txt`.
 
 
